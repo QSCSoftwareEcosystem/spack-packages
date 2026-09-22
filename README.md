@@ -24,6 +24,11 @@ like a normal git repository.
 
 Follow the [spack packaging guidelines](https://spack.readthedocs.io/en/latest/packaging_guide_creation.html), but use the `-N qsc` flag to `spack create` to indicate the new package belongs in this repository.
 
+For Python packages specifically, see
+[docs/python-packaging-best-practices.md](docs/python-packaging-best-practices.md)
+for guidance on CMake integration, virtual environments, and avoiding vendored
+dependencies across GPU/QPU target platforms.
+
 ## Installing a QSC package
 
 To be added.
